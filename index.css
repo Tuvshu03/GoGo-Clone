@@ -1,0 +1,115 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.uk-container {
+    background-color: greenyellow;
+    width: 100vw;
+    height: 120px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#uk-navbar-container {
+    width: 745.34px;
+    height: 38.31;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#uk-navbar {
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-menu-container {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 10.26px;
+    text-align: center;
+
+}
+
+#uk-navbar-nav {
+    width: 270.52px;
+    height:38.91px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.hide {
+    display: none;
+    width: 420px;
+    height: 240px;
+    top: 120px;
+    background-color: white;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.main-menu-container:hover+.hide {
+    display: block;
+    color: black;
+}
+
+.header-top-logo {
+    width: 119px;
+    height: 38.91px;
+}
+
+.header-icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+
+}
+
+#main-menu {
+    width: 556.34px;
+    height: 22px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-menu-list {
+    display: flex;
+    flex-direction: row;
+}
+
+.list-name-staff {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 12.2px;
+    padding-bottom: 25px;
+}
+
+.text-medium {
+    font-weight: 500px;
+    font-size:18px;
+  
+}
+
+.text-low {
+    font-weight: 300px;
+    text-transform: none;
+    font-size: 12px;
+}
+.flex-row{
+    display:flex;
+    flex-direction: row;
+}
+.text-green{
+    color:green;
+}
