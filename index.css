@@ -1,6 +1,7 @@
 body {
     margin: 0px;
     padding: 0px;
+    border-style: border-box;
 }
 
 .uk-container {
@@ -64,6 +65,7 @@ body {
 .header-top-logo {
     width: 119px;
     height: 38.91px;
+    color: red;
 }
 
 .header-icon {
@@ -97,7 +99,7 @@ body {
 
 .text-medium {
     font-weight: 500px;
-    font-size:18px;
+    font-size: 18px;
 }
 
 .text-low {
@@ -105,13 +107,97 @@ body {
     text-transform: none;
     font-size: 12px;
 }
-.flex-row{
-    display:flex;
+
+.flex-row {
+    display: flex;
     flex-direction: row;
 }
-.text-green{
-    color:green;
+
+.text-green {
+    color: green;
 }
-.margin-right-5{
-    margin-right:5px
+
+.margin-right-5 {
+    margin-right: 5px
+}
+
+/* footer-section */
+#gogo-footer {
+    width: 100wv;
+    height: 247.65px;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#uj-container {
+    width: 1100px;
+    height: 147.65px;
+}
+
+.uj-grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex:wrap;
+    margin:0px;
+    padding:0px;
+    list-style: none;
+}
+
+.flex-space-between {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#footer-menu {
+    width: 949.84px;
+    height: 65.62px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 15px;
+    margin-left: 30px;
+}
+
+.footerlogo {
+    height: 20px;
+}
+
+.footer-links {}
+
+.padding-top-50 {
+    padding-top: 50px
+}
+.padding-bottom-50{
+    padding-bottom: 50px;
+}
+.text-12{
+    font-weight: 500;
+    color: #000;
+    font-size:12px;
+    list-style: 20px;
+}
+
+.uk-icon{
+    margin:0;
+    padding:0;
+    border:none;
+    overflow:visible;
+    font:inherit;
+    color:inherit;
+    display:inline-block;
+    background-color: transparent;
+    fill:currentColor;
+    line-height: 0;
+}
+
+
+
+
+
+#black{
+
 }
