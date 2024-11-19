@@ -199,6 +199,10 @@ body {
     width: 1100px;
 }
 
+.margin-top-5 {
+    margin-top: 5px;
+}
+
 .position-relative {
     position: relative;
 }
@@ -215,7 +219,7 @@ body {
     flex-direction: column;
 }
 
-#main-title {}
+
 
 #main-sub-title {
     font-weight: 700;
@@ -253,6 +257,7 @@ body {
     height: 385px;
     position: relative;
     overflow: hidden;
+    border-radius: 8px;
 }
 
 .hide-text {
@@ -310,6 +315,7 @@ body {
     height: 175px;
     position: relative;
     overflow: hidden;
+    border-radius: 8px;
 }
 
 .hide-container2:hover .hide-text {
@@ -357,13 +363,13 @@ body {
     height: 235px;
 }
 
-.bairlal {
+.bairlal1 {
     position: absolute;
     width: 100%;
     height: 100%;
     top: 0;
     left: 0;
-    z-index: 0;
+    z-index: 2;
 }
 
 .story-head {
@@ -378,13 +384,134 @@ body {
 .story-hide-container {
     position: relative;
     overflow: hidden;
+    border-radius: 5px;
 }
 
 .story-hide-container:hover .story-img {
     scale: 1.1;
-    border-radius: 5px;
 }
 
 .story-hide-container:hover .story-head {
     height: 60px;
+}
+
+/* talk section */
+.talk-hide-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+    z-index: 2;
+}
+
+.talk-sub-logo {
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 1s;
+
+}
+
+.talk-hide-container:hover .talk-main-img {
+    scale: 1.1;
+}
+
+.talk-hide-container:hover .talk-sub-logo {
+    width: 80px;
+}
+
+.talk-main-img {
+    width: 543px;
+    height: 500px;
+    object-fit: cover;
+    transition: all 0.6s;
+}
+
+.talk-sub-img {
+    width: 264px;
+    height: 243px;
+    object-fit: cover;
+    transition: all 0.6s;
+}
+
+#talk-title {
+    font-weight: 700;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#talk-title-logo {
+    width: 20px;
+    height: 25px;
+}
+
+.bairlal2 {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 10px;
+    z-index: 2;
+}
+
+.interview {
+    width: 105px;
+    color: #fff;
+    background-color: #407ce8;
+    font-weight: 700;
+    font-size: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 3px;
+    padding: 2px 5px;
+    margin-bottom: 5px;
+}
+
+.talk-info {
+    color: #fff;
+    font-weight: 700;
+    font-size: 10px;
+    text-transform: uppercase;
+    padding: 2px 5px;
+    margin-top: 10px;
+}
+
+.align-center {
+    display: flex;
+    align-items: center;
+}
+
+.talk-main-information {
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 2px 5px;
+    margin-top: 10px;
+}
+
+.talk-sub-information {
+    color: #fff;
+    font-weight: 500;
+    font-size: 13px;
+    margin: 0;
+}
+
+.bhover-talk-info {
+    height: 80px;
+    overflow: hidden;
+    transition: all 0.5s;
+    text-transform: none;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 40px;
+}
+
+.talk-hide-container:hover .bhover-talk-info {
+    height: 100px;
+}
+
+.talk-hide-container:hover .talk-sub-img {
+    scale: 1.1;
 }
