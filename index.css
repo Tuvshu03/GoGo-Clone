@@ -124,7 +124,6 @@ body {
 #gogo-footer {
     width: 100wv;
     height: 247.65px;
-    background-color: aqua;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -163,8 +162,6 @@ body {
 .footerlogo {
     height: 20px;
 }
-
-.footer-links {}
 
 .padding-top-50 {
     padding-top: 50px
@@ -242,7 +239,7 @@ body {
 .black1 {
     background-color: black;
     position: absolute;
-    border-radius: 8px;
+    border-radius: 5px;
     width: 100%;
     height: 100%;
     top: 0;
@@ -257,7 +254,7 @@ body {
     height: 385px;
     position: relative;
     overflow: hidden;
-    border-radius: 8px;
+    border-radius: 5px;
 }
 
 .hide-text {
@@ -272,7 +269,11 @@ body {
     top: 0;
     left: 0;
     opacity: 0;
+    font-weight: 700px;
+    z-index: 2;
+
 }
+
 
 .hide-container1:hover .hide-text {
     opacity: 1;
@@ -514,4 +515,123 @@ body {
 
 .talk-hide-container:hover .talk-sub-img {
     scale: 1.1;
+}
+
+/* design-section */
+.share-logo {
+    width: 12px;
+    height: 12px;
+}
+.share-logo-w {
+    width: 12px;
+    height: 12px;
+}
+
+
+.design-img {
+    height: 230px;
+    transition: all 0.8s;
+    object-fit: cover;
+}
+
+
+.design-hide-container {
+    width: 263.75px;
+    height: 230px;
+    position: relative;
+    overflow: hidden;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    z-index: 2;
+}
+
+.design-hide-container:hover .black1 {
+    opacity: 0.4;
+}
+
+.design-hide-container:hover .hide-text {
+    opacity: 3;
+}
+
+.design-hide-container:hover .design-img {
+    scale: 1.1;
+}
+.thechnology-img{
+    height: 170px;
+    transition: all 0.8s;
+    object-fit: cover;
+    scale:1.1;
+}
+.thechnology-hide-container{
+    width: 263.75px;
+    height: 170px;
+    position: relative;
+    overflow: hidden;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    z-index: 2;
+}
+
+.thechnology-hide-container:hover .black1 {
+    opacity: 0.4;
+}
+
+.thechnology-hide-container:hover .hide-text {
+    opacity: 3;
+}
+
+.thechnology-hide-container:hover .thechnology-img {
+    scale: 1.3;
+}
+.slider {
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.comic-img {
+    height: 200px;
+    object-fit: cover;
+    transition: all 0.8s;
+    scale:1.1;
+}
+
+.comic-hide-container {
+    width: 542.5px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    z-index: 2;
+}
+
+
+.comic-hide-container:hover .hide-text {
+    opacity:1;
+}
+
+.comic-hide-container:hover .black1 {
+    opacity: 0.4;
+}
+
+.comic-hide-container:hover .comic-img {
+    scale: 1.3;
+}
+.watch-font{
+    color:#fff;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+}
+.watch-info-font{
+    color: hsla(0, 0%, 100%, .8);
+    font-weight: 550px;
+    font: 14px;
+}
+.margin-10
+{
+    margin-top:10px;
 }
